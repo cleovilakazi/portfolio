@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 import {
   Route,
   NavLink,
@@ -9,18 +10,19 @@ import Home from "./components/Home";
 import About_Me from "./components/About_Me";
 import Contact from "./components/Contact";
 import Why_SovTech from "./components/Why_Sovtech";
+import './components/index.css'
  
 class Main extends Component {
     render() {
       return (
         <HashRouter>
           <div>
-            <h1>Mbali Cleopathra Mnisi</h1>
+            
             <ul className="header">
-              <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/stuff">About_Me</NavLink></li>
-              <li><NavLink to="/why_sovtech">Why SovTech</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
+              <li className="navlink"><NavLink to="/">Home</NavLink></li>
+              <li className="navlink"><NavLink to="/stuff">About_Me</NavLink></li>
+              <li className="navlink"><NavLink to="/why_sovtech">Why SovTech</NavLink></li>
+              <li className="navlink"><NavLink to="/contact">Contact</NavLink></li>
             </ul>
             <div className="content">
               <Route exact path="/" component={Home}/>
