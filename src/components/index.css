@@ -95,7 +95,15 @@
     .profession-description {
         font-size: 12px;
     } 
+
+    .slide-show{
+        margin-left: 0%;
+        padding-top: 20px;
+    }
+    
 }
+
+
 
 .header{
     top: 0; left: 0; right: 0;
@@ -139,15 +147,37 @@
     color: #f7f7f7;
 }
 
-.sov-background{
+
+.projects{
+    background-image: url('../images/How-to-Build-Your-Work-Portfolio_Social_D1.png');
 }
+
+.slide-show{
+    margin-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.overview{
+    padding: 20px 0px 20px 0px;
+    margin-left: 45%;
+
+}
+
+
+
+.overview-des{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    text-align: center;
+
+}
+
 
 .highlighted-text{
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
 }
-
-
 
 
 a{
@@ -248,5 +278,11 @@ img{
     width: 50%;
 
     margin-left: 25%;
+}
+
+.project-tools{
+    list-style: none;
+    margin-left: 2%;
+    
 }
 
