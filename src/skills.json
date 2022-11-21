@@ -1,0 +1,55 @@
+[
+    {
+        "name": "java",
+        "icon":"https://icons8.com/icon/13679/java"
+    },
+    {
+        "name": "javascript",
+        "icon":"https://icons8.com/icon/108784/javascript"
+    },
+    {
+        "name": "python",
+        "icon": "https://icons8.com/icon/13441/python"
+    },
+    {
+        "name":"dart",
+        "icon":"https://icons8.com/icon/7AFcZ2zirX6Y/dart"
+    },
+    {
+        "name":"flutter",
+        "icon":"https://icons8.com/icon/pCvIfmctRaY8/flutter"
+    },
+    {
+        "name":"",
+        "icon":"https://icons8.com/icon/v8RpPQUwv0N8/html-5"
+    },
+    {
+        "name":"",
+        "icon":"https://icons8.com/icon/cdYUlRaag9G9/docker"
+    },
+    {
+        "name":"",
+        "icon":"https://icons8.com/icon/7gdY5qNXaKC0/css3"
+    },
+    {
+        "name":"",
+        "icon":"https://icons8.com/icon/AZOZNnY73haj/github"
+    },
+    {
+        "name":"",
+        "icon":"https://icons8.com/icon/9nLaR5KFGjN0/mysql-logo"
+    },
+    {
+        "name":"",
+        "icon":"https://iconduck.com/illustrations/108445/gitlab-logo"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name":"",
+        "icon":""
+    }
+
+]
