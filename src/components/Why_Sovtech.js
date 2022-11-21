@@ -5,11 +5,12 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
+import { purple } from "@material-ui/core/colors";
 
 class Why_SovTech extends Component {
     render() {
       return (
-        <div>
+        <div className="sov-background">
 
           <div className="sovBox">
           <Typical className="sovTitle"
@@ -23,14 +24,31 @@ class Why_SovTech extends Component {
           <div className="sovCard">
           <Card 
             style={{
-            
-            backgroundImage: "white",
+            background: "plum",
       }}
       >
       <CardContent>
-      <Typography>
-        My name is mbali
+        <div >
+      <Typography >
+        <p className="sov-motivation">
+        Based on what I have read about the company, 
+        I was impressed about how much my professional 
+        goals align with your company's values. How 
+        I like that the company values growth by being 
+        result oriented and the fact that the company values 
+        adaptability means that I will always be challenged.
+        The company's tech stack aligns with my technical 
+        skills set(Python, Java, Javascript) and the areas 
+        I want to advance in. Also as a full stack software
+        developer, it means I can contribute in many 
+        departments of the company(Mobile and Web app development,
+        Servers, Devops, etc. This makes me versatile and a 
+        great asset to the company. )
+
+        </p>
+        
       </Typography>
+      </div>
 
       </CardContent>
       
