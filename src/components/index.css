@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -38,8 +42,7 @@
 }
 .box-icons{
     padding: 100px;
-    align-items: center;
-    justify-content:center;
+    
     
     
 }
@@ -50,22 +53,25 @@
 
 @media screen and (max-width: 1110px){
     .photo{
-        margin: 0 0px 0 80px;
-        
+        margin-right: 10%;
+    
     }
 
-    img{
-        width: 40%;
-    }
-    .fullName .name-text{
+    .fullName {
         font-size: 12px;
     }  
+
+    .profession-text{
+        font-size: 20px;
+    }
+
+    .profession-description {
+        font-size: 12px;
+    } 
 }
 
 .header{
-    position: fixed;
     top: 0; left: 0; right: 0;
-   
     display: flex;
     align-items: center;
     justify-content:center;
@@ -75,6 +81,39 @@
     box-shadow: 0 1px 4px rgba(146,161,176,.3);
     
 }
+
+.info{
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.profession-des {
+    padding: 10px 0px 0px 0px;
+}
+
+.profession{
+    padding: 10px 0px 10px 0px;
+}
+
+.profession-text{
+    
+    font-family: 'Quicksand' ;
+    color: #f7f7f7;
+}
+
+.profession-description{
+    
+    font-family: 'Muli'  ;
+    color: #f7f7f7;
+}
+.name-text{
+    font-size: 15px;
+    font-family: 'Roboto'  ;
+    color: #f7f7f7;
+}
+
+
+
 
 a{
 
@@ -95,13 +134,14 @@ a{
 }
 
 .photo {
-    padding: 50px;
+    margin-left: 50%;
+    
 }
 
 img{
+    
     flex: 1 1 40rem;
     z-index: 1;
-    
     align-self: center;
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -110,5 +150,13 @@ img{
     mix-blend-mode: normal
   
 
+}
+
+.main{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+    background-image: url(../images/How-to-Build-Your-Work-Portfolio_Social_D1.png);
+    background-repeat: no-repeat;
 }
 

@@ -7,11 +7,9 @@ import profile from '../images/mbali.jpg';
 class Home extends Component {
   render() {
     return (
-       <div className="main"> 
-       <div>
-        <div className="photo">
-          <img src={profile} alt="profile" width={150}></img>
-        </div>
+       <div className="main"> {/**home */}
+        
+        <div className="info"> {/**info */}
       <div className="fullName">
         <span className="name-text">
           Hello, <span className="highlighted-text">Cleopathra Mbali Mnisi here.</span>
@@ -27,14 +25,17 @@ class Home extends Component {
           />
         </h1>
         <div className="profession-des">
-          <p className="profession-des">
+          <p className="profession-description">
             Specializes mainly in web app development and mobile app development.
           </p>
         </div>
         
       </div>
-      </div> 
-      </div>//app
+      </div>  
+      <div className="photo">{/**photo */}
+          <img src={profile} alt="profile" width={150}></img>
+        </div>
+      </div>
     );
   }
 }
