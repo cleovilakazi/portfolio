@@ -25,6 +25,12 @@
     background-image: url('../images/How-to-Build-Your-Work-Portfolio_Social_D1.png');
 }
 
+.sovCard{
+    padding-top: 10% ;
+    margin-left: 15%;
+    width: 50%;
+}
+
   html{
     font-size: 85%;
     overflow-x: hidden;
