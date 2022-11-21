@@ -11,7 +11,7 @@ This results in faster transitions because there is barely any page loading/refr
 Click on the link below to run the application.
 
 
-https://app.netlify.com/sites/symphonious-puppy-fc0d3d
+https://symphonious-puppy-fc0d3d.netlify.app/
 
 
 
