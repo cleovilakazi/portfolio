@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# About The Application
+
+The application is a Single Page Application that uses the Gmail approach. 
+
+If you take click on one of the links on the navigation bar you will see that it does not change to another part of 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -9,9 +9,22 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border: none;
-    text-transform:capitalize;
     transition: all .2s linear;
   }
+
+.sovTitle{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #f7f7f7;
+    font-family: 'Quicksand';
+}
+
+.sovBox{
+    background-image: url('../images/How-to-Build-Your-Work-Portfolio_Social_D1.png');
+}
+
   html{
     font-size: 85%;
     overflow-x: hidden;
@@ -45,6 +58,7 @@
     padding-top: 10%;
     margin-left: 40%;
     
+
 }
 
 .the-icons:hover{
@@ -134,8 +148,13 @@ a{
     justify-content: space-between;
     align-content: space-between;
 }
+
 .des-par{
-    text-align: center;
+    margin-left: 10%;
+}
+
+.valuesList{
+    margin-left: 10%;
 }
 
 .description{
@@ -154,26 +173,20 @@ footer{
     clear: both;
   }
 
-
-
 .skills-heading{
-    font-family: 'Roboto';
+    font-family: 'Muli';
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
-    color: #fff;
+    font-size : 30px;
+    
     
 }
-
-
-
 
 .navlink{
     list-style: none;
     padding: 10px;
 }
-
-
 
 .navlink:hover{
     background-color: #6600cc;

@@ -10,16 +10,16 @@ class About_Me extends Component {
         <div className="description">
         <br/>
         <br/>
-        <p className="des-par"> I am a full stack software engineer 
+        <p className="des-par"> I am a <strong>full stack software engineer </strong>
           who is about to complete her course in 
           December 2022.
           <br/>
           <br/>
-          I am very passionate about what I do and 
-          it shows in the results I deliver.
+          I am very <strong>passionate</strong> about what I do and 
+          it <strong>shows in the results I deliver.</strong>
           <br/>
           <br/>
-          What seperates me from the rest is that I am: 
+          <strong>What seperates me from the rest is that I am: </strong>
           <ul className="valuesList">
             <li>Result-Oriented</li>
             <li>Adaptable</li>
@@ -27,11 +27,11 @@ class About_Me extends Component {
             <li>Responsible</li>
           </ul>
           <br/>
-          I am able to work well in both a team as well as an individual, 
-          as I believe I have strong self motivation.
+          I am able to <strong>work well in both a team as well as an individual</strong>, 
+          as I believe I have <strong>strong self motivation.</strong>
           <br/>
           <br/>
-          <span>What made me fall in love with this career path</span> 
+          <strong>What made me fall in love with this career path </strong> 
           is how I have always loved to solve problems. 
           </p>
           </div>
