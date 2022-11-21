@@ -76,6 +76,7 @@ class Projects extends Component {
             <li className="project-tools">HandleBars.js</li>
 
           </ul>
+          <strong>Refer to Gitlab icon on Homepage footer</strong>
           
         </p>
         

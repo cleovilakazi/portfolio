@@ -45,7 +45,7 @@ class Home extends Component {
         <a href="https://www.linkedin.com/in/cleopathra-mnisi-638184211">
           <i className="fa fa-linkedin the-icons"></i>
         </a>
-        <a href="https://github.com/cleovilakazi">
+        <a href="https://gitlab.wethinkco.de/dashboard/projects/starred">
           <i className="fa fa-github the-icons"></i>
         </a>
         <a href="mailto: mmnisi021@student.wethinkcode.co.za">
